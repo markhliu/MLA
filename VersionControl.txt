@@ -1,0 +1,84 @@
+
+First, install Anaconda on your computer by following instructions here 
+https://www.anaconda.com/products/individual/
+
+Then create a virtual environment: 
+open the Anaconda prompt (in Windows) or a terminal (in Mac or Linux). Execute the following command:
+
+conda create -n MLA python==3.9.12
+
+# activate the virtual environment
+
+conda activate MLA
+
+# install jupyter notebook
+
+conda install notebook==6.4.8
+
+# install the following packages
+
+pip install matplotlib==3.5.2
+
+pip install pandas==1.4.2
+
+pip install imageio==2.16.2
+
+pip install --user tensorflow==2.12.0
+
+pip install scikit-learn==1.2.2
+
+pip install gym==0.15.7
+
+conda install -c conda-forge ghostscript==9.54.0
+
+# If you want to play Atari games (starting from Chapter 18), you'll need to install the following packages:
+
+conda install -c conda-forge atari_py==0.2.9
+
+To install ROMS on your computer, go to the link below
+
+http://www.atarimania.com/rom_collection_archive_atari_2600_roms.html
+
+and download the file Roms.rar to your computer. 
+Extract the two folders, ROMS and HC Roms, and place them in a folder on your computer. 
+For example, I place them in C:\temp on my computer.
+
+After that, run the following command in the Anaconda prompt (Windows) or a
+terminal (MAC or Linux) with the virtual environment MLA activated:
+
+python -m atari_py.import_roms <path to folder>
+
+Since I saved the files in C:\temp on my computer, I ran:
+
+python -m atari_py.import_roms C:\temp
+
+Finally, you need the Baselines game wrapper for Atari games. 
+Here are the steps to install Baselines:
+
+• Step 1: Make sure you have Git installed on your computer; if not, see instructions via the link below 
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
+
+• Step 2: Open the Anaconda prompt (Windows) or a terminal (MAC or Linux)
+and activate the virtual environment MLA. 
+
+Clone the OpenAI Baselines repository by running the following line of command:
+
+git clone https://github.com/openai/baselines.git
+
+• Step 3: Go into the baselines directory by running the following line of command:
+
+cd baselines
+
+• Step 4: Install the Baselines library in the virtual environment by running the following command:
+
+pip install -e .
+
+Make sure you don’t miss the dot at the end of the above command.
+
+
+
+
+
+
+
+
