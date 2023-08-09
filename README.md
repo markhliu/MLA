@@ -19,7 +19,7 @@
 <p><img src="https://gattonweb.uky.edu/faculty/lium/ml/fourgames_h.gif" ></p>
 
 
-If you are using MAC, Jupyter notebooks for chapters 11, 15, and 17 are placed under the /MAC in this repository to work around an issue with OpenGL. 
+If you are using MAC, Jupyter notebooks for chapters 11, 15, and 17 are placed under /MAC in this repository to work around an issue with OpenGL. 
 
 If you run into any trouble, please let me know via mark.liu@uky.edu.
 
