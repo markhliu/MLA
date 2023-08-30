@@ -21,5 +21,7 @@
 
 If you are using MAC, Jupyter notebooks for chapters 11, 15, and 17 are placed under /MAC in this repository to work around an issue with OpenGL. 
 
+Follow the steps in the file VersionControl.txt to install all Python libraries for this book.  
+
 If you run into any trouble, please let me know via mark.liu@uky.edu.
 
