@@ -16,6 +16,8 @@
 
 <p>An earlier version of the free online book <a href="https://github.com/markhliu/ml_animated" target="_blank">here</a>.</p>
 
+<p>A preview of the preface, table of contents, and Chapter 1 <a href="https://gattonweb.uky.edu/faculty/lium/mla/MLApreview.pdf" target="_blank">here</a>.</p>
+
 <p><img src="https://gattonweb.uky.edu/faculty/lium/ml/fourgames_h.gif" ></p>
 
 
